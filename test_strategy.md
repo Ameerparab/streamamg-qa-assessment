@@ -26,29 +26,29 @@ The Streaming Test QA Pyramid:
         Focus: Individual functions, methods, and components (e.g., video encoding modules, API parsers, data validation logic).          
         Implementation:Developed by developers; QA engineers contribute by defining acceptance criteria and reviewing tests.  
         Benefit: Extremely fast feedback, isolate defects to specific code units.
-    
-    3.  API Tests:
+
+2.  API Tests:
     Focus: Interaction with backend services, content management APIs, user authentication, content delivery network (CDN) configurations, metadata handling.  
     Implementation: Automated using tools like Pytest + Requests.  
     Benefit: Fast execution, stable, independent of UI, allows early validation of backend logic and data flow. Crucial for content integrity and availability.  
 
-4.  Component/Integration Tests:  
+3.  Component/Integration Tests:  
     Focus: Verifying the interaction between multiple integrated components.  
     Implementation: Automated, often building upon API tests or specialized tools.  
     Benefit: Ensures that different parts of the system work together as expected, catching integration issues early.  
 
-5.  UI/End-to-End Tests:  
+4.  UI/End-to-End Tests:  
     Focus: Simulating real user journeys across the application's UI on various devices (e.g., navigating to a live event, initiating playback).  
     Implementation: Automated using tools like Playwright or Selenium and multi-device testing.  
     Benefit: Validates the complete user experience, critical paths.  
 
-6.  Performance & Load Tests:  
+5.  Performance & Load Tests:  
     Focus: System responsiveness, stability, and scalability under various load conditions, especially during peak traffic. API response times under load, 
     concurrent user limits.  
     Implementation: Tools like JMeter  
     Benefit: Identifies bottlenecks, ensures the platform can handle unpredictable scale requirements.  
 
-7.  Exploratory/Manual Tests (Apex - Human Insight):  
+6.  Exploratory/Manual Tests (Apex - Human Insight):  
     Focus: Uncovering unexpected defects, validating usability and assessing the overall "feel" of the application, especially for new features or complex 
     scenarios that are hard to automate.  
     Benefit: Provides human intuition and catches issues that automation might miss. Essential for subjective quality aspects like video quality perception.  
