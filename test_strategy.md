@@ -9,7 +9,9 @@ from requirements gathering to post-deployment monitoring.
 
 Core Principles:
 Shift-Left Testing: Start testing as early in the development cycle, to identify and fix defects cheaply and quickly.
+
 Automation First: Prioritize test automation for repetitive and stable test cases to achieve faster feedback cycles, improve efficiency and enable frequent regressions.
+
 Risk-Based Testing: Focus testing efforts on high-risk, critical functionalities (e.g., content ingestion, live stream delivery, playback) that have the most significant 
                     impact on user experience and business operations.
 Continuous Testing: Integrate automated tests into the CI/CD pipeline to provide immediate feedback on code changes and ensure continuous quality.
