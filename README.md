@@ -6,6 +6,7 @@ Programming Language & Framework :
 - Pytest-html for HTML reports
 
 Folder Structure 
+```bash
 streamamg-qa-assessment/
 ├── .venv/                     # Python virtual environment (excluded in .gitignore)
 ├── src/                       # Main source directory
@@ -25,6 +26,7 @@ streamamg-qa-assessment/
 ├── README.md                  # Project overview, setup, and execution instructions
 ├── requirements.txt           # List of Python dependencies (e.g. requests, pytest)
 └── test_strategy.md           # test strategy for streaming video 
+```
 
 Modular Structure: Tests are organized by functionality (api_tests, streaming_tests) to improve maintainability and readability.
 src/utils: Contains reusable components like API clients and configuration management, promoting code reuse and reducing duplication.
