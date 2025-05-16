@@ -44,7 +44,7 @@ The Streaming Test QA Pyramid:
     Implementation: Tools like JMeter
     Benefit: Identifies bottlenecks, ensures the platform can handle unpredictable scale requirements.
 
-6.  Exploratory/Manual Tests (Apex - Human Insight):**
+6.  Exploratory/Manual Tests (Apex - Human Insight):
     Focus: Uncovering unexpected defects, validating usability and assessing the overall "feel" of the application, especially for new features or complex scenarios that are hard to automate.
     Benefit: Provides human intuition and catches issues that automation might miss. Essential for subjective quality aspects like video quality perception.
 
